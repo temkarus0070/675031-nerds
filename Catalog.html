@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/style.css">
 <meta charset="utf-8">
     </head>
     <body>
@@ -13,13 +14,14 @@
                     <li class="main-nav-list-item"><a href="">Магазин</a></li>
                     <li class="main-nav-list-item"><a href="">Контакты</a></li>
                 </ul>
+                <img src="img/cart-icon.svg" alt="box">
                 <a class="shop-nav">Корзина</a>
             </nav>
+            <h1>Магазин готовых шаблонов</h1>
         </header>
 
         <main>
             <section>
-            <h1>Магазин готовых шаблонов</h1>
             <form class="SelectForm" method="POST" action="https://echo.htmlacademy.ru">
             <fieldset>
                 <legend>Стоимость:</legend>
@@ -59,6 +61,13 @@
  <input type="submit" value="Показать">
 
             </form>
+
+            <h4>Сортировать:</h4>
+            <ul class="sort-list">
+                <li><button class="button buttonPrice">По цене</button></li>
+                <li><button class="button buttonType">По типу</button></li>
+                <li><button class="button buttonName">По названию</button></li>
+            </ul>
             <ul class="works">
                 <li><img src="img/img-sedona.jpg" alt="sedona"></li>
                 <li><img src="img/img-pink.jpg" alt="Image pink"></li>
